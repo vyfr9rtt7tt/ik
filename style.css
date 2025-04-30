@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #fff5e1;
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  
+  header h1 {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .card {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+    gap: 20px;
+  }
+  
+  .card.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .card img {
+    width: 30%;
+    object-fit: cover;
+  }
+  
+  .card p {
+    flex: 1;
+  }
+
+  footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #eed7ae;
+  }
